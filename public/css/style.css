@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;}
+header {
+  height: 40px;
+  background-color: bisque;
+  border-radius: 10px;
+  border: 2px;
+  margin: 20px;
+  text-align: center;
+
+}
+article {
+  position: relative;
+  left: 140px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+
+
+}
+.top_left {
+  
+  
+  background-color: antiquewhite;
+  border-radius: 10px;
+  width: 500px;
+  margin-right: 10px;
+  padding-left: 30px;
+  
+}
+.top_right {
+  
+  background-color: antiquewhite;
+  border-radius: 10px;
+  width: 500px;
+  margin-left: 10px;
+  padding-left: 30px;
+
+}
+footer {
+  background-color: bisque;
+  border-radius: 10px;
+  border: 2px;
+  margin-top: 20px;
+}
+
+.bottom {
+  
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  
+  
+}
+
+button {
+  background: #fc0; /* Цвет фона */
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+  
+  
+}
+.linkKin {
+  background-color: darksalmon;
+  border: 1px;
+  border-radius: 5px;
+  width: 100px;
+  height: 20px;
+  margin-right: 0;
+  padding: 0;
+  align-self: center;
+  
+}
+
+.linkMail {
+  background-color: darksalmon;
+  border: 1px;
+  border-radius: 5px;
+  width: 100px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+}
